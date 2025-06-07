@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Honk&family=Monoton&family=Poiret+One&family=Splash&family=Tektur:wght@400..900&display=swap');
+
+h1 {
+  color: turquoise;
+  font-style:oblique;
+  font-family: "Doto", sans-serif;
+  text-align: center;
+  margin-top: 70px;
+  letter-spacing: 4px;
+  font-size: 2.5em
+
+   
+}
+
+h2 {
+  font-family: "Monoton", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: skyblue;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding-top: 75px;
+  padding-bottom: 50px;
+  letter-spacing: 0.7em;
+  
+}
+
+
+
+ 
+body {
+  background-color: black;
+}
+
+.text-block {
+  max-width: 100%;
+  text-align: center;
+}
+
+button  {
+  color:rgb(52, 228, 247);
+  display: block;
+  margin: 25px auto;
+  background-color: #201b51;
+  border-radius: 10px;
+  margin-top: 70px;
+  width: 15%;
+  opacity: 70%;
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:100;
+  display: flex;
+  justify-content: center;
+
+  font-variation-settings:
+    "wdth" 100;
+}
+
+p {
+  color:aqua;
+  font-family: "Poiret One", sans-serif;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 1.5em;
+  letter-spacing: 0.7em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom:30px;
+}
+
+#div-2 {
+  background-color: rgb(19, 22, 39);
+  style
+}
