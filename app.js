@@ -233,26 +233,26 @@ Example: calculateGrade(100) should return A.
 Complete the exercise in the space below:
 */
 
-const calculateGrade = (score) => //{
-  //  if (score >= 90) {
-  //   return 'A';
-  //  } else if(score >= 80) {
-  //   return 'B';
-  //  } else if(score >= 70) {
-  //   return 'C';
-  //  } else if(score >= 60) {
-  //   return 'D';
-  //  } else {
-  //   return 'F'
-  //  }
-  //  };
+const calculateGrade = (score) => {
+   if (score >= 90) {
+    return 'A';
+   } else if(score >= 80) {
+    return 'B';
+   } else if(score >= 70) {
+    return 'C';
+   } else if(score >= 60) {
+    return 'D';
+   } else {
+    return 'F'
+   }
+   };
 
  // ====================TERNARY OPERATOR STUDY========================
 
- score >= 90 ? 'A' :       //if true, return 'A'
- score >= 80 ? 'B' :       //if true return 'B'
- score >= 70 ? 'C' :       //if true, return 'C'
- score >= 60 ? 'D' : 'F';  //if true, return 'D'... else return 'F'
+//  score >= 90 ? 'A' :       //if true, return 'A'
+//  score >= 80 ? 'B' :       //if true return 'B'
+//  score >= 70 ? 'C' :       //if true, return 'C'
+//  score >= 60 ? 'D' : 'F';  //if true, return 'D'... else return 'F'
 
  console.log('Exercise 10 Result:', calculateGrade(85));
 
