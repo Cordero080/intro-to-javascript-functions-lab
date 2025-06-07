@@ -248,7 +248,7 @@ const calculateGrade = (score) => //{
   //  };
 
  // ====================TERNARY OPERATOR STUDY========================
- 
+
  score >= 90 ? 'A' :       //if true, return 'A'
  score >= 80 ? 'B' :       //if true return 'B'
  score >= 70 ? 'C' :       //if true, return 'C'
@@ -271,10 +271,21 @@ Example: createUsername('Samantha', 'Green') should return 'SamGre13'.
 
 Complete the exercise in the space below:
 */
+ const createUsername = (firstName, lastName) => {
+     const firstTriad = firstName.slice(0,3); 
+    // .slice()-cuts out section starting @ index 0, stops @ 2 (Pab)
+     const lastTriad = lastName.slice(0,3);
+    //cuts out section starting @ index 0, stops @ index 2 (Cor)
+     const namelength = firstName.length + lastName.length;
+     //calculates total length of first and last name as whole
+     const username = firstTriad + lastTriad + namelength;
+     // variable definition concatenates the previous variable assignments
+     return username;
+     // returns the calculation
+ }
 
 
-
-// console.log('Exercise 11 Result:', createUsername("Samantha", "Green"));
+ console.log('Exercise 11 Result:', createUsername("Pablo", "Cordero"));
 
 /*
 Exercise 12: numArgs()
@@ -284,7 +295,16 @@ This function should return the count of arguments passed to it when called.
 
 Complete the exercise in the space below:
 */
+const numArgs = (...args) => { // rest parameter that collects all arguments passed into a function into an array
+  let count = 0;
+  for(let i = 0; i < args.length; i++) {
+    if (args[i] != undefined) {
+      count++;
+    }
+}
+   return count;
+};
 
 
 
-// console.log('Exercise 12 Result:', numArgs(1, 2, 3, 4));
+console.log('Exercise 12 Result:', numArgs(1, 2, 3, 4));
